@@ -1,6 +1,7 @@
 module github.com/quasar-finance/quasar
 
-go 1.22.6
+go 1.22.7
+
 toolchain go1.22.9
 
 require (
@@ -38,7 +39,7 @@ require (
 	github.com/skip-mev/feemarket v1.1.0
 	github.com/spf13/cast v1.7.0
 	github.com/spf13/cobra v1.8.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	google.golang.org/genproto/googleapis/api v0.0.0-20240903143218-8af14fe29dc1
 	google.golang.org/grpc v1.68.0
 	google.golang.org/protobuf v1.34.2
